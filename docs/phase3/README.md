@@ -2,7 +2,7 @@
 
 **Status:** Canonical Phase-3 entrypoint  
 **Branch:** `phase-3-agent-first`  
-**Repo root:** `/Users/tamerhamouda/AI-Boss/aibos`  
+**Repo root:** `aibos-foundation-public`  
 **Intent:** provide a single Phase-3 documentation entrypoint for checkpoint review, green-baseline review, approval-lane review, and future handoff continuity
 
 ---
@@ -11,8 +11,8 @@
 
 Start here first:
 
-- `/Users/tamerhamouda/AI-Boss/aibos/docs/phase3/PHASE-3-CHECKPOINT.md`
-- `/Users/tamerhamouda/AI-Boss/aibos/docs/phase3/PHASE-3-GREEN-BASELINE.md`
+- `/docs/phase3/PHASE-3-CHECKPOINT.md`
+- `/docs/phase3/PHASE-3-GREEN-BASELINE.md`
 
 These two files are the main canonical references for:
 - current stable posture
@@ -25,10 +25,10 @@ These two files are the main canonical references for:
 
 Approval-lane documentation lives under:
 
-- `/Users/tamerhamouda/AI-Boss/aibos/docs/approval/README.md`
-- `/Users/tamerhamouda/AI-Boss/aibos/docs/approval/APPROVAL-COVERAGE-INDEX.md`
-- `/Users/tamerhamouda/AI-Boss/aibos/docs/approval/CHANGELOG.md`
-- `/Users/tamerhamouda/AI-Boss/aibos/docs/approval/NEW-CHAT-HANDOFF.md`
+- `/docs/approval/README.md`
+- `/docs/approval/APPROVAL-COVERAGE-INDEX.md`
+- `/docs/approval/CHANGELOG.md`
+- `/docs/approval/NEW-CHAT-HANDOFF.md`
 
 These files describe:
 - approval-lane scope
@@ -44,22 +44,22 @@ These files describe:
 Important runners and validators include:
 
 ### Approval lane
-- `/Users/tamerhamouda/AI-Boss/aibos/agent/approval/validate_approval_artifact_regressions_ci.py`
-- `/Users/tamerhamouda/AI-Boss/aibos/agent/approval/validate_approval_decision_bundle_regressions.py`
+- `/agent/approval/validate_approval_artifact_regressions_ci.py`
+- `/agent/approval/validate_approval_decision_bundle_regressions.py`
 
 ### Execution-gate vectors
-- `/Users/tamerhamouda/AI-Boss/aibos/agent/execution/validate_execution_gate_vectors.py`
+- `/agent/execution/validate_execution_gate_vectors.py`
 
 ### Core validation layer
-- `/Users/tamerhamouda/AI-Boss/aibos/agent/validation/emit_risk_receipt.py`
-- `/Users/tamerhamouda/AI-Boss/aibos/agent/validation/validate_schema.py`
-- `/Users/tamerhamouda/AI-Boss/aibos/agent/validation/validate_chain_integrity.py`
-- `/Users/tamerhamouda/AI-Boss/aibos/agent/validation/validate_test_vectors.py`
+- `/agent/validation/emit_risk_receipt.py`
+- `/agent/validation/validate_schema.py`
+- `/agent/validation/validate_chain_integrity.py`
+- `/agent/validation/validate_test_vectors.py`
 
 ### Approval-ledger portability-stabilized validators
-- `/Users/tamerhamouda/AI-Boss/aibos/agent/ledger/validate_approval_ledger_pack_hash_vectors.py`
-- `/Users/tamerhamouda/AI-Boss/aibos/agent/ledger/validate_approval_ledger_pack_hash_consistency.py`
-- `/Users/tamerhamouda/AI-Boss/aibos/agent/ledger/validate_approval_ledger_pack_duplicate_semantics.py`
+- `/agent/ledger/validate_approval_ledger_pack_hash_vectors.py`
+- `/agent/ledger/validate_approval_ledger_pack_hash_consistency.py`
+- `/agent/ledger/validate_approval_ledger_pack_duplicate_semantics.py`
 
 ---
 
@@ -89,7 +89,7 @@ The baseline green workflow set is:
 - `immutability-layer`
 
 Reference:
-- `/Users/tamerhamouda/AI-Boss/aibos/docs/phase3/PHASE-3-GREEN-BASELINE.md`
+- `/docs/phase3/PHASE-3-GREEN-BASELINE.md`
 
 ---
 
@@ -126,10 +126,10 @@ Recommended immediate continuation:
 This file is the single entrypoint for the current canonical Phase-3 state.
 
 For current posture:
-- read `/Users/tamerhamouda/AI-Boss/aibos/docs/phase3/PHASE-3-CHECKPOINT.md`
+- read `/docs/phase3/PHASE-3-CHECKPOINT.md`
 
 For current green baseline:
-- read `/Users/tamerhamouda/AI-Boss/aibos/docs/phase3/PHASE-3-GREEN-BASELINE.md`
+- read `/docs/phase3/PHASE-3-GREEN-BASELINE.md`
 
 For approval-lane continuity:
-- read `/Users/tamerhamouda/AI-Boss/aibos/docs/approval/README.md`
+- read `/docs/approval/README.md`

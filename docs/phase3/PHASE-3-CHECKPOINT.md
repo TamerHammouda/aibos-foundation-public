@@ -2,7 +2,7 @@
 
 **Status:** Canonical checkpoint  
 **Branch:** `phase-3-agent-first`  
-**Repo root:** `/Users/tamerhamouda/AI-Boss/aibos`  
+**Repo root:** `aibos-foundation-public`  
 **Checkpoint intent:** capture the stable validation-only governance state after token-layer consolidation and composition
 
 ---
@@ -124,8 +124,8 @@ This creates a strong constitutional substrate for any later mint-helper or reso
 The approval lane is now also easier to audit and restart safely because its
 canonical schemas, examples, regression runners, CI coverage, coverage index,
 README, changelog, and handoff doc are all present under
-`/Users/tamerhamouda/AI-Boss/aibos/docs/approval/` and the matching
-`/Users/tamerhamouda/AI-Boss/aibos/agent/approval/` runner paths.
+`/docs/approval/` and the matching
+`/agent/approval/` runner paths.
 
 ---
 

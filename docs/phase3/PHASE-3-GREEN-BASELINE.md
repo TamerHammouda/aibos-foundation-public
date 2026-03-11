@@ -2,7 +2,7 @@
 
 **Status:** Canonical green baseline  
 **Branch:** `phase-3-agent-first`  
-**Repo root:** `/Users/tamerhamouda/AI-Boss/aibos`  
+**Repo root:** `aibos-foundation-public`  
 **Baseline intent:** record the first fully green Phase-3 validation baseline after approval-lane hardening and CI reconciliation
 
 ---
@@ -41,11 +41,11 @@ The approval lane is now stable and includes:
 
 Primary approval docs live under:
 
-- `/Users/tamerhamouda/AI-Boss/aibos/docs/approval/`
+- `/docs/approval/`
 
 Primary approval runners live under:
 
-- `/Users/tamerhamouda/AI-Boss/aibos/agent/approval/`
+- `/agent/approval/`
 
 ---
 
@@ -125,7 +125,7 @@ Recommended immediate path after this baseline:
 
 This document marks the first fully green Phase-3 baseline after approval-lane consolidation and CI reconciliation.
 
-AI-BOS is now in a stable validation-first posture on `/Users/tamerhamouda/AI-Boss/aibos` branch `phase-3-agent-first`.
+AI-BOS is now in a stable validation-first posture in `aibos-foundation-public` on branch `phase-3-agent-first`.
 
 Execution remains blocked.
 

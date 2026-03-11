@@ -2,7 +2,7 @@
 
 **Status:** Canonical next-step policy  
 **Branch:** `phase-3-agent-first`  
-**Repo root:** `/Users/tamerhamouda/AI-Boss/aibos`  
+**Repo root:** `aibos-foundation-public`  
 **Intent:** define the allowed and disallowed next moves from the current green Phase-3 baseline
 
 ---
@@ -11,7 +11,7 @@
 
 This policy is anchored to the current green Phase-3 baseline recorded in:
 
-- `/Users/tamerhamouda/AI-Boss/aibos/docs/phase3/PHASE-3-GREEN-BASELINE.md`
+- `/docs/phase3/PHASE-3-GREEN-BASELINE.md`
 
 It exists to keep future work aligned with the current constitutional posture and to prevent execution drift.
 

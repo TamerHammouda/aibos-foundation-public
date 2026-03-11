@@ -2,7 +2,7 @@
 
 **Status:** Canonical Phase-3 changelog  
 **Branch:** `phase-3-agent-first`  
-**Repo root:** `/Users/tamerhamouda/AI-Boss/aibos`  
+**Repo root:** `aibos-foundation-public`  
 **Intent:** record the major Phase-3 stabilization and documentation milestones that define the current green baseline
 
 ---
@@ -15,28 +15,28 @@
 - execution posture remained blocked and fail-closed throughout
 
 Primary reference:
-- `/Users/tamerhamouda/AI-Boss/aibos/docs/phase3/PHASE-3-CHECKPOINT.md`
+- `/docs/phase3/PHASE-3-CHECKPOINT.md`
 
 ### Approval-lane documentation spine added
 The approval lane was consolidated with canonical supporting docs:
 
-- `/Users/tamerhamouda/AI-Boss/aibos/docs/approval/README.md`
-- `/Users/tamerhamouda/AI-Boss/aibos/docs/approval/APPROVAL-COVERAGE-INDEX.md`
-- `/Users/tamerhamouda/AI-Boss/aibos/docs/approval/CHANGELOG.md`
-- `/Users/tamerhamouda/AI-Boss/aibos/docs/approval/NEW-CHAT-HANDOFF.md`
+- `/docs/approval/README.md`
+- `/docs/approval/APPROVAL-COVERAGE-INDEX.md`
+- `/docs/approval/CHANGELOG.md`
+- `/docs/approval/NEW-CHAT-HANDOFF.md`
 
 ### Approval regression coverage strengthened
 The following regression runners were confirmed and wired into the validation posture:
 
-- `/Users/tamerhamouda/AI-Boss/aibos/agent/approval/validate_approval_artifact_regressions_ci.py`
-- `/Users/tamerhamouda/AI-Boss/aibos/agent/approval/validate_approval_decision_bundle_regressions.py`
+- `/agent/approval/validate_approval_artifact_regressions_ci.py`
+- `/agent/approval/validate_approval_decision_bundle_regressions.py`
 
 ### Approval-ledger CI portability stabilized
 The following validators were hardened to resolve canonical local absolute repo paths safely against the runtime repo root in CI:
 
-- `/Users/tamerhamouda/AI-Boss/aibos/agent/ledger/validate_approval_ledger_pack_hash_vectors.py`
-- `/Users/tamerhamouda/AI-Boss/aibos/agent/ledger/validate_approval_ledger_pack_hash_consistency.py`
-- `/Users/tamerhamouda/AI-Boss/aibos/agent/ledger/validate_approval_ledger_pack_duplicate_semantics.py`
+- `/agent/ledger/validate_approval_ledger_pack_hash_vectors.py`
+- `/agent/ledger/validate_approval_ledger_pack_hash_consistency.py`
+- `/agent/ledger/validate_approval_ledger_pack_duplicate_semantics.py`
 
 This preserved fail-closed behavior while eliminating CI portability drift.
 
@@ -48,14 +48,14 @@ The following CI issues were reconciled to reach the current green baseline:
 - governance CI test-vector shell parsing fix
 
 Primary workflow references:
-- `/Users/tamerhamouda/AI-Boss/aibos/.github/workflows/governance-ci.yml`
-- `/Users/tamerhamouda/AI-Boss/aibos/.github/workflows/execution-gate-vectors-ci.yml`
-- `/Users/tamerhamouda/AI-Boss/aibos/.github/workflows/approval-artifact-ci.yml`
+- `/.github/workflows/governance-ci.yml`
+- `/.github/workflows/execution-gate-vectors-ci.yml`
+- `/.github/workflows/approval-artifact-ci.yml`
 
 ### Phase-3 green baseline recorded
 The first fully green Phase-3 baseline was recorded at:
 
-- `/Users/tamerhamouda/AI-Boss/aibos/docs/phase3/PHASE-3-GREEN-BASELINE.md`
+- `/docs/phase3/PHASE-3-GREEN-BASELINE.md`
 
 At that baseline, the main visible workflows were green:
 
@@ -67,12 +67,12 @@ At that baseline, the main visible workflows were green:
 ### Phase-3 documentation entrypoint added
 A single entrypoint for the current Phase-3 state was added:
 
-- `/Users/tamerhamouda/AI-Boss/aibos/docs/phase3/README.md`
+- `/docs/phase3/README.md`
 
 ### Phase-3 next-step policy added
 A canonical next-step policy was added to freeze the immediate posture from the green baseline:
 
-- `/Users/tamerhamouda/AI-Boss/aibos/docs/phase3/NEXT-STEP-POLICY.md`
+- `/docs/phase3/NEXT-STEP-POLICY.md`
 
 This policy preserves:
 - documentation-first continuation
